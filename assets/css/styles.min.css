@@ -1,0 +1,44 @@
+@font-face{font-family:Doky;src:url(../../assets/fonts/Doky%20Bold.otf) format('otf');font-weight:400;font-style:normal;font-display:auto}@font-face{font-family:Misto;src:url(../../assets/fonts/Misto.woff2) format('woff2');font-weight:400;font-style:normal;font-display:auto}div{top:50%;-ms-transform:translate(-50%,-50%)}
+body {
+    background-color: black;
+}
+
+.logo {
+    color: white;
+	text-overflow: ellipsis;
+	font-size: 128px;
+	font-family: Doky, sans-serif;
+	font-weight: 700;
+    margin-left: 150px;
+}
+
+
+
+.header {
+	position: relative;
+    color: white;
+	text-overflow: ellipsis;
+	font-size: 135px;
+	font-family: Misto, sans-serif;
+	font-weight: 400;
+}
+
+.text_ {
+	position: relative;
+    color: white;
+	text-overflow: ellipsis;
+	font-size: 24px;
+	font-family: Misto, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+a {
+    outline: none !important;
+    text-decoration: none !important;
+    color: #00FFA3;
+}
+
+a:hover {
+    color: #00BC78;
+}
